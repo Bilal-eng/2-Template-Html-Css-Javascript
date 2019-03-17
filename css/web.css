@@ -1,0 +1,66 @@
+/* Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+.container {
+    width: 1200px;
+    margin: auto
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+/* End Global */
+
+/* Start Navbar */
+
+.navbar {
+}
+
+.navbar .brand {
+    float: left;
+    width: 40%;
+    text-transform: uppercase
+}
+
+.navbar .links {
+    float: left;
+    width: 60%;
+    margin-top: 15px
+}
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent
+}
+
+.navbar .links li.active,
+.navbar .links li:hover {
+    color: #1ABC9C;
+    border-bottom: 2px solid #1ABC9C
+}
+
+/* End Navbar */
+
+/* Start My Framework */
+
+.clearfix {
+    clear: both
+}
+
+/* End My Framework */
