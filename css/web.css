@@ -46,13 +46,21 @@ ul {
     display: inline-block;
     padding: 10px 15px;
     font-weight: bold;
-    border-bottom: 2px solid transparent
+    cursor: pointer
 }
 
-.navbar .links li.active,
-.navbar .links li:hover {
-    color: #1ABC9C;
-    border-bottom: 2px solid #1ABC9C
+.navbar .links li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #1ABC9C;
+    transition: width .7s
+}
+
+.navbar .links li:hover::after,
+.navbar .links li:first-child::after {
+    width: 100%
 }
 
 /* End Navbar */
