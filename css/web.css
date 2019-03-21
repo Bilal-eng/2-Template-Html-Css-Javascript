@@ -57,9 +57,19 @@ ul {
     cursor: pointer
 }
 
+.navbar .links li a {
+    color: #FFF;
+    text-decoration: none
+}
+
+.navbar .links li.active a,
+.navbar .links li a:hover {
+    color: #1ABC9C
+}
+
+
 .navbar .links li.active,
 .navbar .links li:hover {
-    color: #1ABC9C;
     border-bottom: 2px solid #1ABC9C
 }
 
@@ -101,12 +111,6 @@ ul {
     height: 100%
 }
 
-/* .header .bxslider li {
-    display: block;
-    background-color: #F00;
-    height: 150px
-} */
-
 .header .bxslider li h2 {
     font-size: 60px;
     margin-bottom: 20px;
@@ -117,7 +121,31 @@ ul {
     color: #1ABC9C;
 }
 
+.header button {
+    background: none;
+    color: #FFF;
+    position: relative;
+    top: 90%;
+    left: 45%;
+    padding: 10px 21px;
+    border: 2px solid #FFF;
+    z-index: 55;
+}
+
 /* End Header */
+
+/* Start Services */
+
+.services {
+    height: 2000px;
+    padding: 20px
+}
+
+.services h2 {
+    margin: 0
+}
+
+/* End Services */
 
 /* Start My Framework */
 

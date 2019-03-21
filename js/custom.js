@@ -51,4 +51,16 @@ $(function(){
         pager: false
     });
 
+    // Smooth Scroll To Div
+
+    $('.links li a').click(function(){
+
+        $('html, body').animate({
+
+            scrollTop: $('#' + $(this).data('value')).offset().top
+
+        }, 1000);
+
+    });
+
 });
