@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    height: 2000px
  
 }
 
@@ -137,8 +138,7 @@ ul {
 /* Start Services */
 
 .services {
-    height: 2000px;
-    padding: 80px 20px
+    padding: 80px 20px 40px
 }
 
 .services h2 {
@@ -146,7 +146,137 @@ ul {
     font-weight: normal
 }
 
+.services .item {
+    width: 33.33333%;
+    float: left;
+    margin-bottom: 20px
+}
+
+.services .item i {
+    color: #1abc9c;
+    width: 21%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5%
+}
+
+.services .item .info {
+    width: 74%;
+    float: left
+}
+
+.services .item .info h3 {
+    font-weight: nromal;
+    color: #2d2d2d;
+    margin-bottom: 10px
+}
+
+.services .item .info p {
+    color: #bababa;
+    margin-top: 0
+}
+
+.our-team {
+    padding: 40px 20px
+}
+
+.our-team .box {
+    float: left
+}
+
+.our-team .box:first-child {
+    width: 35%
+}
+
+.our-team .box p {
+    color: #bababa;
+    line-height: 1.5;
+    font-size: 15px
+}
+
+.our-team .box:not(:first-child) {
+    width: 15.25%;
+    margin-left: 1%;
+    position: relative
+}
+
+.our-team .box:not(:first-child) .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 183px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(26, 188, 156, .8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 2s ease-in-out
+}
+
+.our-team .box:not(:first-child):hover .overlay {
+    visibility: visible;
+    opacity: 1
+}
+
+.our-team .box:not(:first-child) img {
+    width: 100%
+}
+
+.our-team h2 {
+    font-weight: normal;
+    padding: 0 0 10px
+}
+
 /* End Services */
+
+/* Start Testimonials */
+
+.testim {
+    background: url("../images/web-company.jpg");
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 80px 0
+}
+
+.testim .t-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.testim h2 {
+    font-size: 40px;
+    margin: 60px 0
+}
+
+.testim q {
+    font-size: 20px;
+    line-height: 2;
+    color: #a3a2a2;
+    display: block;
+    margin: 80px 0 50px
+}
+
+.testim p {
+    color: #1abc9c
+}
+/* End Testimonials */
 
 /* Start My Framework */
 
@@ -168,5 +298,8 @@ ul {
     border-bottom: 2px solid #333
 }
 
+.separator {
+    border: 1px solid #EEE
+}
 
 /* End My Framework */
