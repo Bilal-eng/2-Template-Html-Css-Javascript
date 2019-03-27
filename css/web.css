@@ -138,11 +138,12 @@ ul {
 
 .services {
     height: 2000px;
-    padding: 20px
+    padding: 80px 20px
 }
 
 .services h2 {
-    margin: 0
+    margin: 0 0 50px;
+    font-weight: normal
 }
 
 /* End Services */
@@ -152,5 +153,20 @@ ul {
 .clearfix {
     clear: both
 }
+
+.special-heading {
+    position: relative
+}
+
+.special-heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 40px;
+    left: 0px;
+    border-bottom: 2px solid #333
+}
+
 
 /* End My Framework */

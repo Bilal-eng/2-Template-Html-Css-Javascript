@@ -28,9 +28,9 @@ $(function(){
 
     // Links Add Active Class
 
-    $('.links li').click(function(){
+    $('.links li a').click(function(){
 
-        $(this).addClass('active').siblings().removeClass('active');
+        $(this).parent().addClass('active').siblings().removeClass('active');
 
     });
 
@@ -62,5 +62,6 @@ $(function(){
         }, 1000);
 
     });
+
 
 });
