@@ -104,4 +104,17 @@ $(function(){
 
     });
 
+    // Trigger NiceScroll
+
+    $('html').niceScroll({
+
+        cursorcolor: '#1ABC9C',
+
+        cursorwidth: '10px',
+
+        cursorborder: '1px solid #1ABC9C',
+
+        cursorborderradius: '0'
+    });
+
 });

@@ -8,8 +8,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    height: 4000px
+    font-family: 'Raleway', sans-serif
  
 }
 
@@ -22,6 +21,10 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0
+}
+
+h2, h3, h4 {
+    font-weight: normal
 }
 
 /* End Global */
@@ -115,7 +118,8 @@ ul {
 .header .bxslider li h2 {
     font-size: 60px;
     margin-bottom: 20px;
-    margin-top: 0
+    margin-top: 0;
+    font-weight: bold
 }
 
 .header .bxslider li h2 span {
@@ -142,8 +146,7 @@ ul {
 }
 
 .services h2 {
-    margin: 0 0 50px;
-    font-weight: normal
+    margin: 0 0 50px
 }
 
 .services .item {
@@ -166,7 +169,6 @@ ul {
 }
 
 .services .item .info h3 {
-    font-weight: nromal;
     color: #2d2d2d;
     margin-bottom: 10px
 }
@@ -229,7 +231,6 @@ ul {
 }
 
 .our-team h2 {
-    font-weight: normal;
     padding: 0 0 10px
 }
 
@@ -291,10 +292,6 @@ ul {
 
 .our-projects {
     padding: 60px 0
-}
-
-.our-projects h2 {
-    font-weight: normal
 }
 
 .our-projects ul {
@@ -394,7 +391,6 @@ ul {
 
 .footer .col h2 {
     color: #FFF;
-    font-weight: normal;
     font-size: 18px
 }
 
@@ -432,8 +428,7 @@ ul {
 
 .footer .recent div h4 {
     margin: 8px 0;
-    color: #a3a3a3;
-    font-weight: normal
+    color: #a3a3a3
 }
 
 .footer .blog ul li {
